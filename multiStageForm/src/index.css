@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  @apply bg-[#645ccb];
+}
+
+input {
+  @apply p-1 w-full border-2 border-[#c0c0c0] focus:outline-[#6b58d9] rounded-sm mb-3;
+}
+
+label{
+  @apply text-[#c0c0c0] font-medium;
+}
+
+button{
+  @apply px-5 py-2 mt-4 bg-[#6b58d9] text-white rounded-sm flex gap-2;
+}
+
+.btn-primary{
+  @apply bg-[#6b58d9];
+}
+
+.btn-secondary{
+  @apply bg-gray-500;
+}
+
+.quote{
+  font-family: 'Fira Code', monospace;
+  font-size: 1rem;
+  @apply font-semibold;
+}
+
+.author{
+  @apply font-normal text-sm text-right mt-3;
+}
